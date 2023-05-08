@@ -1,0 +1,255 @@
+.headerList h1 {
+  font-size: 20px;
+}
+main {
+  background-color: #fff;
+}
+.daysDuration {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.daysDuration span {
+  font-size: 20px;
+  color: #e74c3c;
+}
+.daysDuration.desktop {
+  position: unset;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 0px;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.daysDuration span {
+  font-size: 16px;
+  color: #e74c3c;
+}
+.strip_all_tour_list {
+  border-radius: 10px;
+}
+.img_list {
+  border-radius: 10px 0px 0px 10px;
+}
+.box_style_1 {
+  border-radius: 12px !important;
+  border: none !important;
+}
+.box_style_1 h3.inner {
+  border-radius: 12px 12px 0px 0px !important;
+  border: none !important;
+}
+.theiaStickySidebar {
+}
+.tripAdviser {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.tripAdviser img {
+  max-width: 100%;
+  width: 69%;
+  height: 62px;
+}
+.reviewImgContainer {
+  background-image: url(Crociera\ sul\ Nilo\ _\ Crociera\ Nilo\ _\ crociera\ Egitto\ _\ vacanza\ sul\ Nilo_files/reviewImg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 15px 80px;
+  position: relative;
+}
+.reviewHeader span:nth-of-type(1) {
+  font-size: 12px;
+  line-height: 16px;
+  color: #fff;
+  text-transform: uppercase;
+
+  font-weight: 600;
+}
+.reviewHeader span:nth-of-type(2) {
+  font-size: 34px;
+  line-height: 38px;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+.reviewHeader span:nth-of-type(2) a {
+  text-decoration: underline !important;
+}
+.reviewLine {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 90px;
+  margin: 0 auto;
+}
+.authorInfo i {
+  color: #e46d30;
+}
+.authorInfo span:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.authorInfo span:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #bdc2cb;
+}
+.commentAuthor {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #000000;
+}
+.cardReview {
+  border-radius: 10px;
+}
+.SingelTaps {
+  border: 1px dashed #cfd3da;
+  border-radius: 3px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.SingelTaps::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: -8px;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #e46d30;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.SingelTaps.active {
+  color: #fff;
+  background-color: #e46d30;
+  border: 1px solid #e46d30;
+}
+.SingelTaps.active::after {
+  opacity: 1;
+}
+.SingelTaps.active span {
+  color: #fff;
+}
+.SingelTaps span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  color: #000000;
+}
+.sectionView {
+  display: none;
+}
+.sectionView.active {
+  display: block;
+}
+footer {
+  background-color: #003366;
+}
+#logo_home {
+  background-color: white;
+  width: fit-content;
+  padding: 9px 14px;
+  border-radius: 10px;
+}
+.logoFooter img {
+  width: 244px;
+  height: 68px;
+}
+.button_moblie {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  background: #f06b53;
+  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 100;
+}
+.button_moblie.close {
+  display: none;
+}
+.button_moblie button {
+  font-family: "Cairo", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  background-color: #003366 !important;
+  padding: 14px;
+  border-radius: 8px;
+  animation: 2s 2s infinite wiggle;
+}
+@keyframes wiggle {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}
+@media only screen and (max-width: 590px) {
+  .theiaStickySidebar {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 750px) {
+  .headerList h1 {
+    font-size: 30px;
+  }
+  .tripAdviser img {
+    max-width: 100%;
+    width: 26%;
+    height: 60px;
+  }
+  .button_moblie {
+    display: none;
+  }
+}
